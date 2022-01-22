@@ -1,0 +1,110 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0px solid #ddd;
+}
+
+th, td {
+  padding: 2px 7px 2px 7px;
+  white-space: nowrap;
+}
+
+
+.settings-table tr td:first-child {
+  padding: 2px 25px 2px 7px;
+  white-space: nowrap;
+}
+
+
+  padding-right: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: rbga(0,0,0,0);
+}
+.buttonA {
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0s;
+  cursor: pointer;
+  border-radius:5px;
+}
+
+.buttonA1 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(147,112,219, 0.7);
+}
+
+.buttonA1:hover {
+  background-color: rgba(147,112,219, 0.7);
+  color: white;
+}
+
+.buttonA2 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(200,0,0, 1);
+}
+
+.buttonA2:hover {
+  background-color: rgba(200,0,0,1);
+  color: white;
+}
+
+.buttonA3 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(0,150,0, 1);
+}
+
+.buttonA3:hover {
+  background-color: rgba(0,150,0,1);
+  color: white;
+}
+
+.button-min-max{
+  color: black;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0s;
+  cursor: pointer;
+  border-radius:5px;
+  background-color: white;
+  border: 2px solid rgba(147,112,219, 0.7);
+}
+
+.button-min-max:hover{
+  background-color: rgba(147,112,219, 0.7);
+  color: white;
+}
+
+.button-navigate{
+  color: black;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0s;
+  cursor: pointer;
+  border-radius:5px;
+  background-color: white;
+  border: 2px solid rgba(147,112,219, 0.7);
+}
+
+.button-navigate:hover{
+  background-color: rgba(147,112,219, 0.7);
+  color: white;
+}
